@@ -4,13 +4,6 @@ purplebored.pl
 Welcome to my personal website, located at https://purplebored.pl/
 This is a simple and goofy website that serves as my personal space on the internet.
 
-My Sites:
-----------
-- Subdomain: cat.purplebored.pl
-  - A fun and simple website featuring random cat pictures! [Outdated]
-- Subdomain: neko.purplebored.pl
-  - A clean and pleasant website with neko pictures, similar to the cat site.
-
 Catalog of Main Sites:
 ----------------------
 - Main Site:
@@ -37,8 +30,8 @@ limitations under the License.
 FAQ:
 Q:Was this site written by AI?
 A:Short answer no. Long answer somewhat i did used AI to write most of these comments and i did use AI to do some of the things like CSS but i wrote most of the site myself.
-|------------------------------------------------------------------------|
-|                                                                        |
-|This readme was almost fully written by AmiGGo Chatbot on gg.pl         |
-|                                                                        |
-|------------------------------------------------------------------------|
+|-----------------------------------------------------------------------|
+|                                                                       |
+|    This readme was almost fully written by AmiGGo Chatbot on gg.pl    |
+|                                                                       |
+|-----------------------------------------------------------------------|

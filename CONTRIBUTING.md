@@ -6,7 +6,7 @@ Thank you for considering contributing to this project! If you find a typo or a 
 
 ### Bug Reports and Feature Requests
 
-If you encounter a bug or have a feature request, please submit an issue on the [issue tracker](link-to-issue-tracker) with a clear and descriptive title and description. Include steps to reproduce the issue or a detailed explanation of the requested feature.
+If you encounter a bug or have a feature request, please submit an issue on the [issue tracker](https://codeberg.org/Purplebored/My-Personal-Website/issues) with a clear and descriptive title and description. Include steps to reproduce the issue or a detailed explanation of the requested feature.
 
 ### Pull Requests
 

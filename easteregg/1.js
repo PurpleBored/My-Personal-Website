@@ -8,3 +8,4 @@ document.addEventListener("DOMContentLoaded", function() {
       instruction.style.display = "none";
     });
   });
+  // JS file by purplebored
