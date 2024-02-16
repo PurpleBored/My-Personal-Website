@@ -1,0 +1,31 @@
+body {background-color: #000;}
+/* Ascii logo */
+.ascii-logo {
+    font-family: monospace;
+    white-space: pre;
+    color: #6200ff;
+    top: 50px;
+}
+
+/* time widget */
+.time-widget {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: black;
+    color: #6200ff;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#time {
+    font-size: 14px;
+}
+
+#location {
+    font-size: 12px;
+}
