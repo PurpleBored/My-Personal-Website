@@ -3,9 +3,10 @@ body {background-color: #000;}
 .ascii-logo {
     font-family: monospace;
     white-space: pre;
-    color: #6200ff;
+    color: #a57ae9;
     top: 50px;
 }
+/* End of Ascii logo */
 
 /* time widget */
 .time-widget {
@@ -14,7 +15,7 @@ body {background-color: #000;}
     right: 10px;
     transform: translateY(-50%);
     background-color: black;
-    color: #6200ff;
+    color: #a57ae9;
     padding: 10px;
     border: 2px solid white;
     width: 100px;
@@ -28,4 +29,29 @@ body {background-color: #000;}
 
 #location {
     font-size: 12px;
+}
+/* End of time widget */
+
+/*Content of the website ig no idea how to name this lmfao*/
+.content1 {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 25px;
+}
+/*Code to make footer look cool and ncie :D*/
+footer {
+    font-family: monospace;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+/* Makes hyerpinks not look ugly */
+a {
+    text-decoration: none;
+    color: #6200ff;
 }
