@@ -8,10 +8,12 @@ Catalog of Main Sites:
 ----------------------
 - Main Site:
 https://purplebored.pl/
+- Old site:
+https://purplebored.pl/old
 
 Contributing
 ------------
-Please read the contribution guidelines which are located in the "CONTRIBUTING.md" file before making any contributions to this project.
+Please read the contribution thingy which is located in the "CONTRIBUTING.md" file before making any contributions to this project.
 
 License Information
 -------------------
@@ -26,12 +28,7 @@ distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
-
+(So much yap abt a license ong)
 FAQ:
-Q:Was this site written by AI?
-A:Short answer no. Long answer somewhat i did used AI to write most of these comments and i did use AI to do some of the things like CSS but i wrote most of the site myself.
-|-----------------------------------------------------------------------|
-|                                                                       |
-|    This readme was almost fully written by AmiGGo Chatbot on gg.pl    |
-|                                                                       |
-|-----------------------------------------------------------------------|
+</br>
+Idk i havent recive any questions lmfao

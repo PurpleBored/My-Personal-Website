@@ -39,6 +39,8 @@ body {background-color: #000;}
     color: #a57ae9;
     top: 25px;
 }
+/* End of the content thingy */
+
 /*Code to make footer look cool and ncie :D*/
 footer {
     font-family: monospace;
@@ -50,8 +52,11 @@ footer {
     color: white;
     text-decoration: none;
 }
+/* End of the code which makes the footer look nice :( */
+
 /* Makes hyerpinks not look ugly */
 a {
     text-decoration: none;
     color: #6200ff;
 }
+/* End of hyperlink styling */
