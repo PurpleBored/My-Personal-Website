@@ -1,74 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Define Open Graph meta tags for social media sharing -->
-    <meta property="og:url" content="https://purplebored.pl">
-    <meta property="og:image" content="https://purplebored.pl/assets/pfp.jpg">
-    <meta property="og:title" content="Epic Website..">
-    <meta property="og:description" content="Just my personal website :D">
-    <!-- Define keywords for SEO -->
-    <meta name="keywords" content="Poland, portfolio, purplebored, niko, purplebright, personal portfolio">
-    <!-- Set the favicon for the website -->
-    <link rel="icon" href="fish.png">
-    <!-- Set the character encoding and viewport -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Set the title of the page -->
-    <title>Niko :3</title>
-    <!-- Link the external CSS stylesheet -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- Import the 'Titillium Web' font from Google Fonts -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
-    </style>
-</head>
-<body>
-<div class="popup" id="Popup">
-    <p>This website is still WIP (work in progress) (almost finished trust me bro) so the site may have out of date information or just look ugly af.</p>
-    <button onclick="closePopup()">aight aight!</button>
-</div>
-<!-- Header section -->
-<header>
-    <!-- Dark mode toggle button -->
-    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
-    <!-- "Hi, I'm Niko" text with animated dots -->
-    <h1 class="animated-text">Hi, I'm Niko<span class="dots-animation">...</span></h1>
-</header>
-<main>
-    <!-- The big frame with all the things -->
-    <div class="frame">
-        <h2>About Me</h2>
-        <p>Hi i am Niko aka Purplebored i am Currently learning C# some Ruby and russian :D. I made this site for fun you can find the source code of it on my Github. I also host some stuff like a zerobin instance privatebin instance and linkstack instance!</p>
-        <h2>My Skills</h2>
-        <p>Baisc html and some Ruby and C# skills</p>
-        <h2>My Projects</h2>
-            <li>
-                <h3>Neko.purplebored.pl</h3>
-                <p>A very cool site which uses the nekolife API.</p>
-                <p><a href="https://neko.purplebored.pl" target="_blank">Demo</a></p>
-                <p><a href="https://github.com/Purplebored/neko.purplebored.pl" target="_blank">neko.purplebored.pl Source Code</a></p>
-            </li>
-        </ul>
-        <h2>Contact me</h2>
-        <p>You can email me if you want at "n1ko@shitposting.expert"!</p>
+<html>
+    <head>
+        <!-- Embed and SEO shit --> 
+        <meta property="og:url" content="https://purplebored.pl">
+        <meta property="og:image" content="embed.jpg">
+        <meta property="og:title" content="Best website!">
+        <meta property="og:description" content="Just my personal website :D">
+        <meta name="keywords" content="Poland, purplebored, niko, purplebright, personal site, blog">
+        <!-- end of embed and SEO shit --> 
+        <title>=Purplebored=</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        
+        <div class="ascii-logo">
+            _____                  _      _                        _ 
+           |  __ \                | |    | |                      | |
+           | |__) |   _ _ __ _ __ | | ___| |__   ___  _ __ ___  __| |
+           |  ___/ | | | '__| '_ \| |/ _ \ '_ \ / _ \| '__/ _ \/ _` |
+           | |   | |_| | |  | |_) | |  __/ |_) | (_) | | |  __/ (_| |
+           |_|    \__,_|_|  | .__/|_|\___|_.__/ \___/|_|  \___|\__,_|
+                            | |                                      
+                            |_|                                      
+       </div>
+
+       <div class="content1">
+        <p>===About Me===<p>
+Hi welcome to my crappy website (the code behind the website looks even worse turst me). I am Niko aka Purplebored I love to troll and spread missinformation online (but not here no missinfomation here!!).
+I mostly just shitpost sometimes i try to learn programing but it never works out the most i know is just a lil bit of HTML JS and CSS and some C# and CPP (VERY basic C++ and C# lmfao). </br>(I am also Polish so my English skill aint too good! If you see a typo you can just let me know about it or make the change yourself on Github or Codeberg)
+Wanna go to my Old site? (No idea why this is a lot better!) In that case just go <a href="/old/" target="_blank">Here!</a>
+I am planning to add some random content to this website like some small reviews or some software recomandations nothing special really just yet another personal website.
+</br>
+<p>===Shit i self host=== </br>btw this cool dark purple is a hyperlink ^^</p>
+<a href="https://bin.purplebored.pl/" target="_blank">My Private Pastebin instance (Very cool!)</a>
+<a href="https://oldpb.purplebored.pl/" target="_blank">My Private Zerobin instance (Privte Bin but older)</a>
+<a href="https://speed.purplebored.pl/" target="_blank">A LibreSpeed instance using a Polish server located in Warsaw.</a>
+<p>===Content=== </br>(That's the reviews and recomandations and shit i use)</p>
+<a href="things.html" target="_blank">Software and things i use</a>
+<a href="blog.html" target="_blank">My Blog (Nothing on it yet)</a>
+<p>===My Projects===</p> </br>I am not cooking rn so nothing here!
     </div>
-</main>
-<!-- Footer section -->
-<footer class="site-footer">
-    <!-- Footer links -->
-    <ul class="footer-links">
-        <li><a href="mailto:n1ko@shitposting.expert" target="_blank"><img class="icon" src="assets/email.svg" alt="Email icon"> Email</a></li>
-        <li><a href="https://codeberg.org/Purplebored"><img class="icon" src="assets/codeberg.svg" alt="Codeberg icon"> Codeberg</a></li>
-        <li><a href="https://github.com/PurpleBored" target="_blank"><img class="icon" src="assets/github.svg" alt="GitHub icon"> GitHub</a></li>
-        <li><a href="https://gitlab.com/PurpleBored" target="_blank"><img class="icon" src="assets/gitlab.svg" alt="GitLab icon"> GitLab</a></li>
-        <li><a href="https://matrix.to/#/@purplebored:beeper.com" target="_blank"><img class="icon" src="assets/matrix.svg" alt="Matrix icon">Matrix</a></li>
-        <li><a href="https://github.com/PurpleBored/My-Personal-Website" target="_blank"><img class="icon" src="assets/code.svg" alt="Source code icon">Source code</a> </li>
-    </ul>
-    <!-- Footer text -->
-    <p id="footer">Made with 💜 by Niko aka PurpleBored.</p>
-    <!-- JavaScript script -->
+
+       <div class="time-widget">
+        <div id="location"> My Timezone: Europe/Warsaw</div>
+        <div id="time"></div>
+    </div>
+    <div class="links">
+    </div>
+    <footer>
+        <a class="clean">Purplebored &copy; 2023-2024 </a> | <a href="https://codeberg.org/Purplebored" target="_blank">My Codeberg</a> | <a href="https://github.com/PurpleBored" target="_blank">My Github</a> | <a href="/contact.html/" target="_blank">Contact Me</a> | </pre>
+    </footer>>
     <script src="script.js"></script>
-</footer>
-</body>
+    </body>
 </html>
-<!-- HTML File by Purplebored. https://purplebored.pl -->
+<!-- Code for this website made by Purplebored. https://purplebored.pl -->

@@ -1,0 +1,92 @@
+body {background-color: #000;}
+/* Ascii logo */
+.ascii-logo {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 50px;
+}
+/* End of Ascii logo */
+
+/* time widget */
+.time-widget {
+    position: fixed;
+    top: 50px;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: black;
+    color: #a57ae9;
+    padding: 10px;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    font-family: monospace;
+}
+
+#time {
+    font-size: 14px;
+}
+
+#location {
+    font-size: 12px;
+}
+/* End of time widget */
+
+/*Content of the website ig no idea how to name this lmfao*/
+.content1 {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 25px;
+}
+/* End of the content thingy */
+
+/*Code to make footer look cool and ncie :D*/
+footer {
+    font-family: monospace;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+}
+/* End of the code which makes the footer look nice :( */
+
+/* Makes hyerpinks not look ugly */
+a {
+    text-decoration: none;
+    color: #6200ff;
+}
+/* End of hyperlink styling */
+
+/* SICK Ascii logo */
+.ascii-logo-blog {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* End of SICK Ascii logo */
+
+/*Blog Content 1 (Yes there is a second one of these and yes ik that i am terible and naming shit*/
+.content-blog {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 25px;
+    font-size: large;
+}
+/* End of the Blog content thingy */
+/*Blog Content 2 (This is mostly for the content of the blogs like the blog posts themself */
+.content-blog-2{
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 25px;
+    font-size: large;
+}
+/* End of the Blog content 2thingy */
