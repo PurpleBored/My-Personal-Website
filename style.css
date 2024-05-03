@@ -60,3 +60,33 @@ a {
     color: #6200ff;
 }
 /* End of hyperlink styling */
+
+/* SICK Ascii logo */
+.ascii-logo-blog {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+}
+/* End of SICK Ascii logo */
+
+/*Blog Content 1 (Yes there is a second one of these and yes ik that i am terible and naming shit*/
+.content-blog {
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 25px;
+    font-size: large;
+}
+/* End of the Blog content thingy */
+/*Blog Content 2 (This is mostly for the content of the blogs like the blog posts themself) */
+.content-blog-2{
+    font-family: monospace;
+    white-space: pre;
+    color: #a57ae9;
+    top: 25px;
+    font-size: large;
+}
+/* End of the Blog content 2thingy */
