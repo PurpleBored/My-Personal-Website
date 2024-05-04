@@ -94,3 +94,35 @@ a {
     font-size: large;
 }
 /* End of the Blog content 2thingy */
+
+/* That sick badge / banner thing */
+.banner1 {
+    position: fixed;
+    top: 89px;
+    right: 10px;
+}
+
+.banner2 {
+    position: fixed;
+    top: 123px;
+    right: 10px;
+}
+
+.banner3 {
+    position: fixed;
+    top: 160px;
+    right: 10px;
+}
+
+.banner4 {
+    position: fixed;
+    top: 200px;
+    right: 10px;
+}
+
+.banner5 {
+    position: fixed;
+    top: 234px;
+    right: 10px;
+}
+/* End of that sick badge thingy */
