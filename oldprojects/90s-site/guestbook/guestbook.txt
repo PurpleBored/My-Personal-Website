@@ -1,0 +1,32 @@
+<li>Name: Niko | Message: It should be working now
+</li>
+<li>Name: g | Message: &lt;script&gt;window.location.href = 'https://google.com'&lt;/script&gt;</li>
+<li>Name: Niko | Message: Yay it dosen't work anymore</li>
+<li>Name: test  | Message: this is a test by ElitePrime#7266</li>
+<li>Name: test | Message: el bozo</li>
+<li>Name: test | Message: bozo hello</li>
+
+<li>Name: test | Message: el bozo</li>
+<li>Name: lol | Message: &lt;?php system('rm guestbook.txt'); ?&gt;</li>
+<li>Name: Lil_zitam | Message: Hi</li>
+<li>Name: el kutas | Message: el kutas</li>
+<li>Name: bapril | Message: @nomz@social.linux.pizza</li>
+<li>Name: bazed schizo  | Message: a</li>
+<li>Name: Niko | Message: Epic</li>
+<li>Name: Haydar | Message: epic</li>
+<li>Name: Niko | Message: Indeed epic</li>
+<li>Name: noot | Message: 9/10 not enough skeletons </li>
+<li>Name: Noah..#3496 | Message: ******</li>
+<li>Name: Zander | Message: i have officially been here
+check me out on uuh https://zander.gq or sumn idk lol
+</li>
+<li>Name: Im cumming | Message: Fuck ****** piss shit</li>
+<li>Name: LG125YT | Message: The</li>
+<li>Name: LG125YT | Message: The</li>
+<li>Name: LG125YT | Message: The</li>
+<li>Name: Niko | Message: The</li>
+<li>Name: FireDevilX | Message: CHECK OUT MY WEBSITE AT https://zmon.serv00.net</li>
+<li>Name: FireDevilX | Message: CHECK OUT MY WEBSITE AT https://zmon.serv00.net</li>
+<li>Name: FireDevilX | Message: CHECK OUT MY WEBSITE AT https://zmon.serv00.net</li>
+<li>Name: lemon/Annie | Message:  hi :D</li>
+<li>Name: Niko | Message: hai</li>

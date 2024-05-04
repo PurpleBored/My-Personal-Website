@@ -1,4 +1,8 @@
-body {background-color: #000;}
+body {
+    background-color: #000;
+    margin:0;
+    height: 100;
+}
 /* Ascii logo */
 .ascii-logo {
     font-family: monospace;

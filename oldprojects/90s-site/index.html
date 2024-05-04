@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Nikos cool and epic website</title>
+    <link rel="shortcut icon" type="image/png" href="fbi_cat.png">
+    <style>
+      body {
+        background-image: url('1998/stars.gif');
+        background-repeat: repeat;
+		background-size: cover;
+        font-family: 'Comic Sans MS', cursive, sans-serif;
+        color: purple;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .skeleton {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        animation: move-skeleton 1s linear infinite;
+        transform: scaleX(-1);
+      }
+
+      @keyframes move-skeleton {
+        0% { opacity: 1; }
+        10% { opacity: 1; }
+        90% { opacity: 1; }
+        100% { opacity: 1; }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to My Epic 8) Website!!1!!!11!</h1>
+    <p>This is my website. It's fancy af, so better have a good cumputer!!!!!!.</p>
+    <p>I like to do many things like:</p>
+    <ul>
+      <li>Listen to Nirvana Nevermind (My Favorite album)</li>
+      <li>PLay withDOS</li>
+      <li>Play Half life</li>
+      <li>Chat with my friends on AOL</li>
+    </ul>
+    <p>If you want to get in touch with me, you can email! me at <a href="mailto:niko@astolfo.email">niko@astolfo.email</a>.</p>
+    <img src="1998/skel.gif" alt="Look at this cool gif HAHAHAAHHAHAH this is so funny and looks pretty scary">
+    <script>
+      // create an array of skeleton images.
+      const skeletonImgs = ['1998/skeleton1.gif', '1998/skeleton2.gif', '1998/skeleton3.gif'];
+
+      // get the window width and height
+      const w = window.innerWidth;
+      const h = window.innerHeight;
+
+      // generate a random position for the skeleton
+      function randomPosition() {
+        const x = Math.floor(Math.random() * w);
+        const y = Math.floor(Math.random() * h);
+        return [x, y];
+      }
+
+      // create a new skeleton image and add it to the body
+      function createSkeleton() {
+        // check if there are already 5 skeletons on the screen
+        const skeletons = document.getElementsByClassName('skeleton');
+        if (skeletons.length >= 10) {
+          return;
+        }
+
+        const [x, y] = randomPosition();
+        const imgSrc = skeletonImgs[Math.floor(Math.random() * skeletonImgs.length)];
+        const img = document.createElement('img');
+        img.setAttribute('src', imgSrc);
+        img.setAttribute('class', 'skeleton');
+        img.style.left = x + 'px';
+        img.style.top = y + 'px';
+        document.body.appendChild(img);
+
+        // remove the skeleton after 2 seconds
+        setTimeout(() => {
+          img.parentNode.removeChild(img);
+        }, 2000);
+      }
+
+      // create a new skeleton every 2 seconds
+      setInterval(createSkeleton, 2000);
+    </script>
+    <br>
+    <a href="/oldprojects/first_website/index.html" target="_blank" class="link">Wanna Take a look at my current new site? Just press this line of text easy :d </a>
+  <h3>The new site is just kinda my portfolio and this is my side projects just for fun</h3>
+<center> <h1> <a href="guestbook/oh.html" target="_blank" class="link">SIGN THE Guestbook</a> </h1> </center>
+
+
+  </body>
+</html>

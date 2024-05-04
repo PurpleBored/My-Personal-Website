@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Simple Password Generator</title>
+    <meta property="og:url" content="https://pass.purplebored.pl">
+    <meta property="og:title" content="Simple password generator">
+    <meta property="og:description" content="A very simple web app wich generates passwords">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+
+  <body>
+    <h1>Password Generator</h1>
+    <form>
+      <label>Password Length:
+        <input type="number" name="length" min="1" max="250" required oninput="this.value = this.value.replace(/[^0-9]/g, '')" required> 
+        <small>(1-250)</small> 
+      </label>
+
+      <label>Include Numbers:
+        <input type="checkbox" name="numbers">
+      </label>
+      <label for="lowercase">Include Lowercase Characters:
+        <input type="checkbox" name="lowercase" id="lowercase">
+      </label>
+      <label for="uppercase">Include Uppercase Characters:
+        <input type="checkbox" name="uppercase" id="uppercase">
+      </label>
+      <label>Include Special Characters: 
+        <input type="checkbox" name="specialChars">
+      </label>
+
+      <button type="button" onclick="generatePassword()">Generate Password</button>
+    </form>
+
+    <div id="password-container" style="display: none;">
+      <p id="password"></p> 
+      <button onclick="copyToClipboard()">Copy to Clipboard</button> 
+      <button onclick="generatePassword()">Generate Another Password</button> 
+    </div>
+
+    <script src="password.js"></script> 
+</footer>
+
+<footer class="site-footer">
+  <p id="footer">Made with 💜 by Niko aka PurpleBored. | <a href="https://codeberg.org/PurpleBored/Simple-Password-Generator"><img src="icon.svg" alt="Source Code" />Source Code</a></p> <!-- Footer text with source code link -->
+</footer>
+  </footer>
+  </body>
+</html>

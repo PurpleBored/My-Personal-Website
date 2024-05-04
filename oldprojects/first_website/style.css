@@ -1,0 +1,235 @@
+:root {
+  height: 100%;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("backgroumd.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0062;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 5s ease infinite;
+}
+
+.crypto-list li img[src="dogecoin.png"] {
+    height: 30px;
+  }
+
+.crypto-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.crypto-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+.crypto-list img {
+    width: 30px;
+    margin-right: 10px;
+  }
+
+.crypto-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+.crypto-list li {
+    margin: 0 20px;
+    text-align: center;
+  }
+
+.crypto-list img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.gradient-text {
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+.site-footer {
+  background-color: transparent;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 2.9;
+}
+
+.footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links a {
+  color: #c5c2c2;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.footer-links a:hover {
+  color: #302e2e;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+
+.footer-links a:hover {
+  color: #000;
+  background-color: rgba(218, 211, 211, 0.5);
+  border-radius: 5px;
+}
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 9999;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar ul li {
+  margin: 10px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  color: #fff;
+}
+
+.audio-player-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.play-button {
+  background-color: #4CAF50;
+  color: rgba(255, 255, 255, 0.568);
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.play-button:hover {
+  background-color: #969b96;
+}
+
+.volume-slider-container {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.volume-slider-container label {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.volume-slider {
+  -webkit-appearance: none;
+  width: 100px;
+  height: 5px;
+  background: #ddd;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  margin-left: 5px;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+.volume-slider::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+
+
+
