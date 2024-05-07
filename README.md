@@ -1,6 +1,6 @@
---------------
-purplebored.pl
---------------
+## purplebored.pl
+If u here on github please dont commit here. Commit on my Codeberg cause i have only sync from codeberg to github thx thx! [Codeberg](https://codeberg.org/purplebored)</br>
+
 Welcome to my personal website, located at https://purplebored.pl/
 This is a simple and goofy website that serves as my personal space on the internet.
 
