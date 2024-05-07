@@ -2,6 +2,7 @@ body {
     background-color: #000;
     margin:0;
     height: 100;
+    overflow-x: hidden
 }
 /* Ascii logo */
 .ascii-logo {
@@ -86,13 +87,15 @@ a {
 }
 /* End of the Blog content thingy */
 /*Blog Content 2 (This is mostly for the content of the blogs like the blog posts themself */
-.content-blog-2{
+.content-blog-2 {
     font-family: monospace;
-    white-space: pre;
     color: #a57ae9;
-    top: 25px;
     font-size: large;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
 }
+
 /* End of the Blog content 2thingy */
 
 /* That sick badge / banner thing */
