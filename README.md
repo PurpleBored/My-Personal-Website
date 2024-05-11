@@ -11,6 +11,10 @@ https://purplebored.pl/
 - Old site:
 https://purplebored.pl/old
 
+To Do:
+------------
+I have a seprete todo file now! So you can track what  i am planning to add.
+
 Contributing
 ------------
 Please read the contribution thingy which is located in the "CONTRIBUTING.md" file before making any contributions to this project.
