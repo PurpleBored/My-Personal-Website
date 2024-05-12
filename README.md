@@ -6,7 +6,7 @@ This is a simple and goofy website that serves as my personal space on the inter
 
 Catalog of Main Sites:
 ----------------------
-- Main Site:
+- New Site:
 https://purplebored.pl/
 - Old site:
 https://purplebored.pl/old
@@ -33,6 +33,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 (So much yap abt a license ong)
+
 FAQ:
-</br>
+----
 Idk i havent recive any questions lmfao
